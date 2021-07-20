@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd ~/.config/conky/
 curr_theme=$(cat .current_theme)
 selection=""
 
