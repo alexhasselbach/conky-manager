@@ -1,5 +1,10 @@
 #!/bin/bash
 
+'''
+To create a new conky theme, copy a conky.conf file into 
+a new folder. This will be recognized by conky-manager.
+'''
+
 cd ~/.config/conky/
 curr_theme=$(cat .current_theme)
 selection=""
